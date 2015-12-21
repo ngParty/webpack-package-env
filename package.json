@@ -1,0 +1,28 @@
+{
+  "name": "webpack-package-env",
+  "version": "1.0.0",
+  "description": "Simple build environment variables helper",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "^5.4.1"
+  },
+  "scripts": {
+    "test": "standard && node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngParty/webpack-package-env.git"
+  },
+  "keywords": [
+    "webpack",
+    "package",
+    "env"
+  ],
+  "author": "@elmariofredo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngParty/webpack-package-env/issues"
+  },
+  "homepage": "https://github.com/ngParty/webpack-package-env#readme"
+}
