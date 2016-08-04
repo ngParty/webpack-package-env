@@ -7,7 +7,7 @@ function getPackageExportName (packageConfigName) {
 function getDestinationVersionPath (packageConfigMain, packageExportName) {
   return packageConfigMain
     .replace('dist/', '')
-    .replace(packageExportName + '.js', '')
+    .replace('/' + packageExportName + '.js', '')
 }
 
 module.exports = {
