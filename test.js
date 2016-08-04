@@ -15,5 +15,5 @@ assert.equal(
     packageConfig.main,
     transform.getPackageExportName(packageConfig.name)
   ),
-  'some/path/'
+  'some/path'
 )
